@@ -7,7 +7,7 @@ not only whitespace.
 import os
 import sys
 
-ENTRY = "Twelve yoghurts, zero spoons. This isn't a shop, it's a hostage situation with live cultures."
+ENTRY = "No spoon, twelve yoghurts. This isn't a shop, it's a hostage situation with live cultures."
 
 def main() -> int:
     if not (1 <= len(ENTRY) <= 200) or not ENTRY.strip():
